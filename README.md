@@ -1,4 +1,4 @@
-# Gabor Filter -- DSP Assignment
+# Sound classification using Gabor Filters
 
 ### Overview
 - Ex 1 este rezolvat in [gabor_filter.m](gabor_filter.m)
