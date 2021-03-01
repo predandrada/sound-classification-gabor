@@ -27,8 +27,8 @@
 	`161805 = 160704 + 1101 = size(elem 1) + size (elem 2) - 1`
 
 - obtin: 
-	'Accuracy on train: 0.55'
-	'Accuracy on test: 0.49'
+	- 'Accuracy on train: 0.55'
+	- 'Accuracy on test: 0.49'
 
 ### Ex 5
 - am realizat parcurgerea unui sunet in bucati de 35ms, pe care le-am transpus in esantioane 
@@ -41,5 +41,5 @@
 - pentru a realiza matricea rezultat am iterat separat de calculul tensorilor: pentru fiecare sunet se va itera din nou prin filtre (valorile sunt sub forma de vectori coloana in cadrul tensorilor) si se aplica mean si std pe coloane 	
 
 - obtin: 
-	'Accuracy on train: 0.71'
-	'Accuracy on test: 0.55'
+	- 'Accuracy on train: 0.71'
+	- 'Accuracy on test: 0.55'
