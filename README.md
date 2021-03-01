@@ -1,16 +1,15 @@
-## Andrada-Elena Preda, 341C2
+# Gabor Filter -- DSP Assignment
 
+### Overview
+- Ex 1 este rezolvat in [gabor_filter.m](gabor_filter.m)
+- Ex 2, 3 sunt rezolvate integral in [get_features.m](get_features.m)
+- Ex 4 este rezolvat in [get_result_conv.m](get_result_conv.m)
+- Ex 5 este rezolvat in [get_stride_conv.m](get_stride_conv.m)
 
-- Ex 1 este rezolvat in gabor_filter.m
-- Ex 2, 3 sunt rezolvate integral in get_features.m
-- Ex 4 este rezolvat in get_result_conv.m
-- Ex 5 este rezolvat in get_stride_conv.m
-
-
-# Ex 1:
+### Ex 1
 	- am implementat filtrul gaussian conform formulei (3), considerand media u = size/2.
 
-# Ex 2:
+### Ex 2
 	- mi-am construit in get_features.m 3 matrice (cos_filters, sin_filters si exp_filters) pentru a avea acces mai usor la filtre -- fiecarei linii ii corespunde unui filtru;
 	- cele 3 matrice vor fi returnate de functie sub forma unui singur vector bidimensional, construit la final:
 
@@ -18,10 +17,10 @@
 
 	- am afisat filtrele cos si sin folsind valorile de pe primele linii ale matricelor cos_filters & sin_filters.
 
-# Ex 3:
+### Ex 3
 	- destul de straightforward: am iterat prin filtre, am aplicat fft si am afisat spectrul pentru fiecare 
 	
-# Ex 4:
+### Ex 4
 	- am iterat prin fiecare sunet am aplicat convolutia pe fiecare filtru de la linia j
 	- dimensiunile de dupa convolutie: [161805, 1] 
 
@@ -31,8 +30,7 @@
 		'Accuracy on train: 0.55'
 		'Accuracy on test: 0.49'
 
-# Ex 5:
-
+### Ex 5
 	- am realizat parcurgerea unui sunet in bucati de 35ms, pe care le-am transpus in esantioane 
 	- 35 ms => 1543.815 ~ 1543 esantioane
 
